@@ -2,13 +2,13 @@
 #include "Adafruit_MQTT.h"
 #include "Adafruit_MQTT_Client.h"
 
-#define WIFI_SSID "SHARP_VISION_DUAL"
-#define WIFI_PASS "12355555"
+#define WIFI_SSID ""// your wifi SSID
+#define WIFI_PASS ""//your wifi password
 
 #define MQTT_SERV "io.adafruit.com"
 #define MQTT_PORT 1883
-#define MQTT_NAME "Barbatoss"
-#define MQTT_PASS "aio_VmxN10XolqJp86rH8S4ccNvyUdQD"
+#define MQTT_NAME ""//enter your adafruit username
+#define MQTT_PASS ""//enter your aio key
 
 int led = D7;
 
